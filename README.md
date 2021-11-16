@@ -27,17 +27,26 @@ for example `sh openvon.sh -i` will install the openvpn server auto
 intall the openvpn server,if finish.you can use `netstat -tnlp | grep 1194` check the service is doing  
 #### sh openvpn.sh -a username password
 add the user ,it will add to a user in the file "/etc/openvpn/server/user/psw-file"
+
 `sh openvpn.sh -a user001 password001`  
+
 `sh openvpn.sh -a user002 password002`
 
 #### sh openvpn.sh -g or cat /etc/openvpn/server/user/psw-file
 show users and password 
+
 #### sh openvpn.sh -s username 'the last part of ip' 
 some time ，you need solid static ip for team work, you can solid the vpn inner ip.
+
 for example,
+
 if you add a user "user002" of `sh openvpn.sh -a user001 password001` 
+
 you can do it for solid static ip of user user002
+
 `sh openvpn.sh -s user001 '16'`  
+
 `sh openvpn.sh -s user002 '231'`  
+
 the user user001's ip will solid 
 
