@@ -1,4 +1,8 @@
-# 1. Install script
+This is a fully automatic installation of OpenVPN script, welcome to use
+
+
+
+# 1. Install server
 
 ## 1.1 Download script 
 Download the script `openvpn.sh` from the repository root path                 
