@@ -22,14 +22,12 @@ tcp        0      0 0.0.0.0:1194            0.0.0.0:*               LISTEN      
 ```
 # 2. How to use
 ```text
-[root@vps ~]# sh openvpn.sh 
-     -i                            install    一键安装                 (done)
-     -a [用户名] [密码]            adduser    一键增加用户             (done)
-     -g                            getuser    一键查看所有用户         (done)
-     -s [用户名] [ip最后一段]      solid-ip   一键固定客户端IP         (done)
-     -u                            update     一键更新脚本             (doing)
-     -r                            remove     一键卸载OpenVpn          (doing)
-     -h                            help       一键查看帮助             (doing)
+[root@vps ~]# sh openvpn.sh
+
+     -i                                   install the server               
+     -a [username] [password]             add user                        
+     -g                                   show users                   
+     -s [username] [IP last part]         solid-ip                        
 ```
 ## 2.1 Add the user 
 commond:               
