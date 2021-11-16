@@ -1,15 +1,10 @@
-### the auto script  
-`bash <(curl -s -S -L https://github.com/hccpw007/openvpnallinone/raw/main/openvpn.sh) -install`
+# install script
 
-it maybe not work of the net eroor,you can do the following
-
-### 1. download the script `openvpn.sh` from the repository root path
-```bash
-wget https://github.com/hccpw007/openvpnallinone/raw/main/openvpn.sh
-```
+## download script 
+download the script `openvpn.sh` from the repository root path        
+`wget https://github.com/hccpw007/openvpnallinone/raw/main/openvpn.sh`            
 or `vi openvpn.sh` and then copy the code in the file
-
-### 2. execute `sh openvpn.sh` and select one
+## 2. execute `sh openvpn.sh` and select one
 ```text
 [root@vps ~]# sh openvpn.sh 
      -i                            install    一键安装                 (done)
@@ -22,7 +17,7 @@ or `vi openvpn.sh` and then copy the code in the file
      -h                            help       一键查看帮助             (doing)
 ```
 for example `sh openvon.sh -i` will install the openvpn server auto 
-### how to use
+# how to use
 #### sh openvpn.sh -i
 intall the openvpn server,if finish.you can use `netstat -tnlp | grep 1194` check the service is doing  
 #### sh openvpn.sh -a username password
@@ -32,10 +27,10 @@ add the user ,it will add to a user in the file "/etc/openvpn/server/user/psw-fi
 
 `sh openvpn.sh -a user002 password002`
 
-#### sh openvpn.sh -g or cat /etc/openvpn/server/user/psw-file
+## sh openvpn.sh -g or cat /etc/openvpn/server/user/psw-file
 show users and password 
 
-#### sh openvpn.sh -s username 'the last part of ip' 
+## sh openvpn.sh -s username 'the last part of ip' 
 some time ，you need solid static ip for team work, you can solid the vpn inner ip.
 
 for example,
