@@ -30,7 +30,7 @@ tcp        0      0 0.0.0.0:1194            0.0.0.0:*               LISTEN      
      -h                            help       一键查看帮助             (doing)
 ```
 ## 2.1 Add the user 
-execute        
+commond:               
 `sh openvpn.sh -a username password`         
 add the user ,it will add to a user in the file "/etc/openvpn/server/user/psw-file"  
 for example         
@@ -42,14 +42,19 @@ You can show all users of the command
 show users and password 
 ## 2.3 Solid static inner IP
 commond: 
-
 sh openvpn.sh -s username 'the last part of ip'        
-
 Some time ，you need solid static ip for team work, you can solid the vpn inner ip.        
 for example,you can do it for solid static ip of  user001 and user002      
 `sh openvpn.sh -s user001 16`         
 `sh openvpn.sh -s user002 231`               
 the user user001's ip will solid:  10.8.0.16      
 the user user002's ip will solid:  10.8.0.231          
+Tips: the scope is  2 ~ 254        
+## 2.4 Export config files
+The config files in the destitory `/etc/openvpn/client-conf`         
+you can export they.          
+then, user the  
+
+
 
 
