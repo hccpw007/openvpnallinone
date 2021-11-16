@@ -8,8 +8,7 @@ This is a fully automatic installation of OpenVPN script, welcome to use
 Download the script `openvpn.sh` from the repository root path                 
 `wget https://github.com/hccpw007/openvpnallinone/raw/main/openvpn.sh`                  
 or        
-`vi openvpn.sh`          
-and then copy the code in the file
+`vi openvpn.sh`     and then copy the code in the file
 ## 1.2 isntall openvpn server
 execute        
 `sh openvpn.sh -i`  
