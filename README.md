@@ -24,7 +24,6 @@ tcp        0      0 0.0.0.0:1194            0.0.0.0:*               LISTEN      
      -a [用户名] [密码]            adduser    一键增加用户             (done)
      -g                            getuser    一键查看所有用户         (done)
      -s [用户名] [ip最后一段]      solid-ip   一键固定客户端IP         (done)
-     -o                            output     一键导出配置文件         (done)
      -u                            update     一键更新脚本             (doing)
      -r                            remove     一键卸载OpenVpn          (doing)
      -h                            help       一键查看帮助             (doing)
@@ -51,9 +50,9 @@ the user user001's ip will solid:  10.8.0.16
 the user user002's ip will solid:  10.8.0.231          
 Tips: the scope is  2 ~ 254        
 ## 2.4 Export config files
-The config files in the destitory `/etc/openvpn/client-conf`         
+The config files in the directory `/etc/openvpn/client-conf`         
 you can export they.          
-then, user the  
+then, use the openvpn client app connect.
 
 
 
